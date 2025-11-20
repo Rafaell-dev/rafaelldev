@@ -37,7 +37,7 @@ export function ContactModal({ open, onOpenChange }: ContactModalProps) {
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-md rounded-[45px] primary-border p-8">
+      <DialogContent className="sm:max-w-md rounded-2xl primary-border p-8">
         <DialogHeader>
           <DialogTitle className="text-3xl font-bold text-center">
             <span className="bg-accent px-2 py-1">Entre em contato</span>

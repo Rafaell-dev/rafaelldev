@@ -44,6 +44,14 @@ export function Header() {
             Entrar em contato
           </Button>
         </nav>
+
+        <Button
+          variant="outline"
+          className="rounded-full bg-transparent h-12 md:hidden"
+          onClick={() => setContactModalOpen(true)}
+        >
+          Entrar em contato
+        </Button>
       </div>
 
       <ContactModal

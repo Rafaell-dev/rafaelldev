@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
+import { ContactModal } from "@/components/common/contact-modal";
 
 export function HeroSection() {
+  const [contactModalOpen, setContactModalOpen] = useState(false);
   return (
     <section className="container mx-auto px-4 py-16 md:px-6 md:py-24">
       <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
@@ -21,6 +24,7 @@ export function HeroSection() {
             <Button
               size="lg"
               className="h-14 rounded-full bg-foreground text-background hover:bg-foreground/90"
+              onClick={() => setContactModalOpen(true)}
             >
               Entrar em contato
             </Button>
@@ -53,6 +57,11 @@ export function HeroSection() {
           </div>
         </div>
       </div>
+
+      <ContactModal
+        open={contactModalOpen}
+        onOpenChange={setContactModalOpen}
+      />
     </section>
   );
 }
