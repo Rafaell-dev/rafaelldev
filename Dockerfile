@@ -7,6 +7,10 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm ci
 
+# Build arguments
+ARG VITE_RESUME_URL
+ENV VITE_RESUME_URL=$VITE_RESUME_URL
+
 # Copy source code and build
 COPY . .
 RUN npm run build
