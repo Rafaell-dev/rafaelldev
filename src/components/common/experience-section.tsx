@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
-import { ChevronDown, ChevronUp, Briefcase, Building2 } from "lucide-react";
+import { ChevronDown, ChevronUp, Building2 } from "lucide-react";
 
 interface Experience {
   title: string;
@@ -62,9 +62,7 @@ export function ExperienceSection() {
                   <h3 className="text-2xl">
                     {experience.title} - {experience.company}
                   </h3>
-                  <p className="text-xl">
-                    {experience.period}
-                  </p>
+                  <p className="text-xl">{experience.period}</p>
                 </div>
               </div>
               <div className="flex h-10 w-10 items-center justify-center rounded-full border-1 border-foreground bg-background">
