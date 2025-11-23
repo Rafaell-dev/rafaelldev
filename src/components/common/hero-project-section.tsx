@@ -123,7 +123,7 @@ export function HeroProjectSection({ project }: HeroProjectSectionProps) {
                   key={img}
                   className={`relative aspect-[4/3] rounded-md overflow-hidden cursor-pointer border-2 transition-all ${
                     index === activeIndex
-                      ? "border-white"
+                      ? "border-accent"
                       : "border-transparent"
                   }`}
                   onClick={() => setActiveIndex(index)}

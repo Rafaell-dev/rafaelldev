@@ -15,8 +15,7 @@ export const projectsData: Record<string, Project> = {
     linkType: "internalLink",
     name: "Admin Dashboard",
     techStack: "NextJS + TypeScript",
-    description:
-      "Plataforma de gestão de projetos com interface moderna e intuitiva. Sistema completo com autenticação, dashboard interativo e gerenciamento de tarefas em tempo real.",
+    description: `Luna é um painel administrativo para e-commerce, com interface intuitiva e responsiva. Centraliza a gestão de produtos (com upload via Cloudinary), pedidos, clientes e análises de desempenho, oferecendo gráficos interativos e relatórios detalhados. Conta com modo claro/escuro, autenticação segura via Clerk e foi desenvolvido com Next.js 14, React, TypeScript, Tailwind, Prisma e PostgreSQL.`,
     images: [
       "/project-details/luna/img1.png",
       "/project-details/luna/img2.png",
@@ -24,15 +23,14 @@ export const projectsData: Record<string, Project> = {
       "/project-details/luna/img4.png",
     ],
     githubUrl: "https://github.com/lunaecommerce/luna",
-    liveUrl: "https://gacessorios.com.br",
+    liveUrl: "https://luna.anjotech.net",
   },
   "e-commerce": {
     id: "e-commerce",
     linkType: "internalLink",
     name: "E-commerce",
     techStack: "NextJS + TypeScript",
-    description:
-      "Plataforma completa de e-commerce com carrinho de compras, sistema de pagamentos integrado e painel administrativo para gerenciamento de produtos e pedidos.",
+    description: `Loja virtual completa focada na venda de produtos importados, desenvolvida com Next.js 14 (App Router) para alta performance e SEO otimizado. Oferece navegação intuitiva com filtros e busca avançada, checkout seguro integrado ao Stripe, autenticação e gestão de usuários via Clerk, interface responsiva e acessível com Radix UI e Tailwind CSS, além de gerenciamento de estado eficiente com Zustand.`,
     images: [
       "/project-details/gacessorios/img1.png",
       "/project-details/gacessorios/img2.png",
@@ -40,9 +38,9 @@ export const projectsData: Record<string, Project> = {
       "/project-details/gacessorios/img4.png",
     ],
     githubUrl: "https://github.com/lunaecommerce/luna_ecommerce",
-    liveUrl: "https://luna.anjotech.net",
+    liveUrl: "https://gacessorios.com.br",
   },
-  "agreste": {
+  agreste: {
     id: "agreste",
     linkType: "internalLink",
     name: "Agreste Motors",
