@@ -38,7 +38,7 @@ export const projectsData: Record<string, Project> = {
       "/project-details/gacessorios/img4.png",
     ],
     githubUrl: "https://github.com/lunaecommerce/luna_ecommerce",
-    liveUrl: "https://gacessorios.com.br",
+    liveUrl: "https://gacessorios.anjotech.net",
   },
   agreste: {
     id: "agreste",
