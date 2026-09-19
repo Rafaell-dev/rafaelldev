@@ -56,11 +56,20 @@ export const projectsData: Record<string, Project> = {
     githubUrl: "https://github.com/Rafaell-dev/agrestemotors",
     liveUrl: "https://agrestemotors.anjotech.net",
   },
-  "flashcard-app": {
-    id: "flashcard-app",
-    linkType: "externalLink",
-    liveUrl:
-      "https://www.figma.com/design/wJjEs6c9uRbALP9sWPqB9c/mindcards?node-id=51-114&t=mFe4lSLUs4dFPZgH-1",
+  "div.ar": {
+    id: "div.ar",
+    linkType: "internalLink",
+    name: "Div.ar",
+    techStack: "NestJS + Fatify",
+    description:
+      "Plataforma avançada para criação e aplicação de pesquisas interativas, com construtor customizável, player de formulários com regras condicionais e monitoramento rigoroso de atenção (anti-cheat), além de um painel administrativo completo com suporte a portfólios.",
+    liveUrl: "https://survey.anjotech.net/login",
+    images: [
+      "/project-details/div.ar/div.ar_survey.png",
+      "/project-details/div.ar/div.ar_results.png",
+      "/project-details/div.ar/div.ar_portfolio.png",
+      "/project-details/div.ar/div.ar_dashboard.png",
+    ],
   },
   "api-restful": {
     id: "api-restful",
